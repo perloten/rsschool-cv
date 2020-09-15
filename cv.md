@@ -1,9 +1,10 @@
 Evgeniya Kirichenko
 ================
+
 Contact Info
 ---------
 * [Github](https://github.com/perloten)
-* [Gmail](perloten@gmail.com)
+* [Gmail](mailto:perloten@gmail.com)
 * [Telegram](https://t.me/perloten)
 
 Summary
