@@ -66,3 +66,38 @@
     color:#464647; 
     padding-right: 10px;
   }
+
+  .footer {
+    background-color: #17181A;
+  }
+
+  .footer  a:hover {
+    color: #43c523;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo-rs {
+  background: url(https://rs.school/images/rs_school_js.svg) no-repeat;
+    width: 100px;
+    height: 45px;
+    /* position: absolute; */
+    right: 10%;
+    mix-blend-mode: difference;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.footer__github img {
+  width: 100px;
+    height: 45px;
+}
+
+.footer__year {
+  font-weight: bold;
+  color: #fff;
+}
