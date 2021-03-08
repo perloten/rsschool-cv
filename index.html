@@ -36,9 +36,7 @@
 
       <section class="section">
         <h2 class="title">Summary</h2>
-        <div>
             I want to become a front-end developer. I want to go to front-end for a long time. Now there is a time and a desire to make it happen. For over 6 years I have been working as a content manager. Also I have experience in using HTML and CSS (also in SASS). I’m a good learner.
-        </div>
       </section>
 
       <section class="section">
@@ -55,10 +53,36 @@
 
       <section class="section">
         <h2 class="title">Code Example</h2>
+        <details>
+          <summary>Codewars solution)</summary>
+          <code><pre>
+            class Shark extends Animal {
+              constructor(name, age, status, legs, species) {
+                super(name, age, status);
+                this.status = status;
+                this.legs = 0;
+                this.species = 'shark';
+              }
+            }
+          </pre>
+          </code>
+         </details>
+        
       </section>
 
       <section class="section">
         <h2 class="title">Experience</h2>
+        <details>
+          <summary>Internship as a html coder</summary>
+          <figure>
+            <p><img src="/kinohod-1.jpg" alt=""></p>
+            <figcaption>Layout for Kinohod (VTB loyalty program)</figcaption>
+           </figure>
+           <figure>
+            <p><img src="/kinohod-2.jpg" alt=""></p>
+            <figcaption>Seat selection (VTB loyalty program)</figcaption>
+           </figure>
+         </details>
       </section>
 
       <section class="section">
@@ -71,9 +95,24 @@
         <h2 class="title">Languages</h2>
         <ul>
             <li><span><i class="fa fa-check icon"></i></span>Russian (native speaker)</li>
-            <li><span><i class="fa fa-check icon"></i></span>English (A1-A2)</li>
+            <li><span><i class="fa fa-check icon"></i></span>English (A2)</li>
         </ul>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__github">
+            <a href="https://github.com/perloten" target="_blank">
+              <img src="/GitHub_Logo_White.png" alt="Github Perloten account">
+            </a>
+          </div>       
+          <div class="footer__year">
+            <script type="text/javascript">dt = new Date();document.write(dt.getFullYear());</script>
+          </div>
+          <div class="footer__logo-rs" onclick="document.location.href = 'https://rs.school/js/';"></div>
+          </div>
+        </div>
+    </footer>
   </body>
 </html>
